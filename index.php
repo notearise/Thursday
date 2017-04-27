@@ -11,7 +11,7 @@
 	<?php unset($_SESSION["logedout"]); ?>
 <?php endif; ?>
 	<div class="jumbotron">
-		<h2>Welcome to <strong>FLASH</strong> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></h2>
+		<h2>Welcome to <strong>Thursday</strong> <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></h2>
 		<p>the world's largest social network!!</p>
 	</div>
 <?php include "partials/footer.php" ?>

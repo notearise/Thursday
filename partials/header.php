@@ -24,7 +24,7 @@
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="<?= ACC_SCRIPTROOT ?>">FLASH <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
+          <a class="navbar-brand" href="<?= ACC_SCRIPTROOT ?>">Thursday <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="<?= ACC_SCRIPTROOT ?>signup.php">Sign up</a></li>
