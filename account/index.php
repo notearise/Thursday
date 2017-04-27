@@ -5,10 +5,10 @@
     <div class="page-header">
     <form class="" action="posts.php" method="post">
       <div class="form-group">
-        <textarea name="post_content" rows="4" cols="20" style="resize:none;" class="form-control" placeholder="how was your day <?php echo $_SESSION['auth']['username'] ?> ?"></textarea>
+        <textarea name="post_content" rows="4" cols="20" style="resize:none;" class="form-control" placeholder="What's on your mind <?php echo $_SESSION['auth']['username'] ?> ?"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" name="submit" class="btn btn-default">Post status</button>
+        <button type="submit" name="submit" class="btn btn-default">+</button>
       </div>
     </form>
     </div>
@@ -21,7 +21,7 @@
     <?php endif; ?>
     <?php if (isset($_SESSION["post_success"])): ?>
       <div class="alert alert-success">
-        status successfully posted
+        Note successfully posted
       </div>
       <?php unset($_SESSION["post_success"]) ?>
     <?php endif; ?>
@@ -140,7 +140,7 @@
                        ?>
                         <form class="rpl-form" action="" method="post">
                           <div class="form-group">
-                            <textarea name="reply" style="resize:none;" class="form-control" rows="2" cols="40" placeholder="reply the status"></textarea>
+                            <textarea name="reply" style="resize:none;" class="form-control" rows="2" cols="40" placeholder="Reply to this note..."></textarea>
                           </div>
                           <div class="form-goup">
                             <button type="submit" class="btn btn-default" name="submit_reply" value="<?php echo $post["post_id"] ?>">Reply</button>

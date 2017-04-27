@@ -204,7 +204,7 @@
                          ?>
                           <form class="rpl-form" action="" method="post">
                             <div class="form-group">
-                              <textarea name="reply" style="resize:none;" class="form-control" rows="2" cols="40" placeholder="reply the status"></textarea>
+                              <textarea name="reply" style="resize:none;" class="form-control" rows="2" cols="40" placeholder="Reply to this note..."></textarea>
                             </div>
                             <div class="form-goup">
                               <button type="submit" class="btn btn-default" name="submit_reply" value="<?php echo $post["post_id"] ?>">Reply</button>

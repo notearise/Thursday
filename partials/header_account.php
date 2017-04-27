@@ -36,7 +36,7 @@
             <li><a href="<?= SCRIPTROOT ?>logout.php">Logout</a></li>
             <form action="search.php" method="get" class="navbar-form navbar-left">
               <div class="form-group">
-                <input type="text" placeholder="meet new friends" name="q" class="form-control">
+                <input type="text" placeholder="Find more follows" name="q" class="form-control">
               </div>
               <button type="submit" class="btn btn-default">Search</button>
             </form>
