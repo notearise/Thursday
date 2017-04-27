@@ -27,8 +27,8 @@
           <a class="navbar-brand" href="<?= ACC_SCRIPTROOT ?>">Thursday <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="<?= ACC_SCRIPTROOT ?>signup.php">Sign up</a></li>
-          <li><a href="<?= ACC_SCRIPTROOT ?>login.php">Log in</a></li>
+          <li><a href="<?= ACC_SCRIPTROOT ?>signup.php">Sign Up</a></li>
+          <li><a href="<?= ACC_SCRIPTROOT ?>login.php">Log In</a></li>
         </ul>
       </div>
     </nav>

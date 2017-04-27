@@ -24,7 +24,7 @@
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="<?= SCRIPTROOT ?>">THURSDAY <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
+          <a class="navbar-brand" href="<?= SCRIPTROOT ?>">Thursday <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
         </div>
         <ul class="nav navbar-nav">
           <li><a href="<?= ACC_SCRIPTROOT ?>profile.php?username=<?php echo $_SESSION['auth']['username'] ?>"><?php echo $_SESSION["auth"]["username"] ?></a></li>
