@@ -60,7 +60,7 @@
 		</div>
 	<?php endif;?>
 	<?php if ($created): ?>
-		<div class="alert alert-success">your account is succefully created, you can login now</div>
+		<div class="alert alert-success">your account is succefully created, you can <a href="<?= ACC_SCRIPTROOT ?>login.php">log in</a> now</div>
 		<?php $created = false; ?>
 	<?php endif ?>
 	<form action="" method="post">
